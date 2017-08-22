@@ -2,5 +2,6 @@
 #include <stdiolib.h>
 
 for(;;){
+	printf("eat breakfast");
 
 }
