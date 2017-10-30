@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-__author__ = 'skunda'
-# This program logs a Raspberry Pi's CPU temperature to a Thingspeak Channel
-# To use, get a Thingspeak.com account, set up a channel, and capture the Channel Key at https://thingspeak.com/docs/tutorials/ 
-# Then paste your channel ID in the code for the value of "key" below.
-# Then run as sudo python pitemp.py (access to the CPU temp requires sudo access)
-# You can see my channel at https://thingspeak.com/channels/41518
-
 import http.client
 import urllib.parse
 import urllib.request
