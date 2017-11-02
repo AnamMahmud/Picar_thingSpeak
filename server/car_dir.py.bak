@@ -16,7 +16,7 @@ def setup(busnum=None):
 			if line[0:8] == 'offset =':
 				offset = int(line[9:-1])
 	except:
-		print('config error')
+		print 'config error'
 	leftPWM += offset
 	homePWM += offset
 	rightPWM += offset
